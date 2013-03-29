@@ -5,6 +5,14 @@
 This `html_safe_attribute` extension provides the capabilities of
 declaring attributes as html_safe in your Rails models. 
 
+Sometimes information coming from the DB or other sources contains plain
+HTML and the content is completely trustable. This gem solves the
+problem of repeating `.html_safe` everywhere in your views for specific
+model attributes.
+
+It only applies when content in attribute is a String. When it is
+Numeric, it just does nothing.
+
 
 ## Installation
 
