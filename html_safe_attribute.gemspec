@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = HtmlSafeAttribute::VERSION
   s.authors     = ["Santi Bel"]
   s.email       = ["santiago.bel@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/landtax/html_safe_attribute"
   s.summary     = %q{Declare html_safe attributes in your Rails models}
-  s.description = %q{Use 'html_safe :attribute' to declare html_safe attributes in your Rails models}
+  s.description = %q{Declare html_safe attributes in your Rails models}
 
   s.rubyforge_project = "html_safe_attribute"
 
